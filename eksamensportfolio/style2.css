@@ -1,0 +1,218 @@
+
+body {
+    margin: 0;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+/*---- Header med sidelogo med lys effekt----*/
+header {
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(blob.jpg);
+    background-size: 100%;
+}
+
+#mitlogo {
+    width: 130px;
+    height: 70px;
+    padding-top: 15px;
+}
+
+header button {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #dbdbdb;
+    color: #333;
+    cursor: pointer;
+}
+
+#knapper {
+    padding-bottom: 5px;
+    letter-spacing: 0;
+}
+
+/*----Hovedmenu----*/  
+#menu {
+    position: sticky;
+    top: 0;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    background-color: #dbdbdb;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+} 
+
+/*----Dropdown----*/
+
+.drop {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbt {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    border: none;
+    font-size: 17px;
+    padding: 14px 16px;
+    background-color: #dbdbdb;
+}
+
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color: #dbdbdb;
+    z-index: 1;
+    min-width: 130px;
+}
+
+.dropcontent a {
+    color: black;
+    text-decoration: none;
+    padding: 12px 16px;
+    display: block;
+}
+
+.drop:hover .dropcontent {
+    display: block;
+} 
+
+/*----Brødtekst med billeder/illustrationer + links----*/
+
+section img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Gelasio', serif;
+    letter-spacing: 0;
+    font-size: 20px;
+    margin: 20px;
+    color: black;
+}
+
+h1, h2{
+    margin: 20px 20px 0 20px;
+}
+
+#kildelink {
+    text-decoration: none;
+    color: rgba(75, 74, 74, 0.863);
+    display: inline;
+    margin: 20px;
+    font-style: italic;
+
+}
+
+
+/*----Footer----*/
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #000;
+    font-family: 'Playfair Display', serif;
+    padding: 15px;
+}
+
+footer h3, footer h2 {
+    margin: 0;
+}
+
+footer h3 {
+    font-size: small;
+}
+
+
+@media only screen and (min-width: 600px){
+
+    #mitlogo {
+        width: 200px;
+        height: 130px;
+    }
+
+    section img {
+        padding: 50px;
+    }
+
+    header {
+        background-size: 100%;
+    }
+
+    p, h1, h2, #kildelink {
+        padding: 20px 50px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 800px){
+
+    #mitlogo {
+        width: 250px;
+        height: 150px;
+    }
+
+    section img {
+        padding: 120px;
+    }
+    
+    header {
+        background-size: 100%;
+        padding: 2%;
+    }
+
+    p, h1, h2, #kildelink {
+        padding: 30px 120px;
+        margin: 0;
+    }
+
+}
+
+
+@media only screen and (min-width: 1000px){
+
+    #mitlogo {
+        width: 300px;
+        height: 200px;
+    }
+
+    section img {
+        padding: 250px;
+    }
+
+    header {
+        background-size: 100%;
+        padding: 3%;
+    }
+
+    p, h1, h2, #kildelink {
+        padding: 50px 250px 30px 250px;
+    }
+}
