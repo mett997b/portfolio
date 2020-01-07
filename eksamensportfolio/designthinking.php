@@ -23,7 +23,7 @@ include 'nav.html';
 <!--Brødtekst med billeder/illustrationer-->
 
 <section>
-        <h1Designthinking</h1>
+        <h1>Designthinking</h1>
             <p>
                 Design Thinking er en innovationsmetode, der tager udgangspunkt i selve processen i det at udvikle et produkt. 
                 <br>En metode, hvor der søges forståelse fra brugeren, de stereotypiske antagelser bliver udfordret og der bliver omdefineret problemstillinger, der skaber vej til innovative løsninger. 

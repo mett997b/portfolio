@@ -35,6 +35,113 @@ header button {
 }
 
 /*----Hovedmenu----*/  
+/* .Menu a:not(:first-child), .drop .dropbt {
+    display: none;
+  }
+  .Menu a.icon {
+    float: right;
+    display: block;
+}
+
+.Menu.responsive {
+    position: relative;
+}
+
+.Menu.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.Menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+  
+.Menu.responsive .drop {
+    float: none;
+}
+  
+.Menu.responsive .dropcontent {
+    position: relative;
+}
+
+  .Menu.responsive .drop .dropbt {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+.Menu {
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+   }
+  
+  .Menu a {
+    float: left;
+    display: block;
+    color: #dbdbdb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .Menu .icon {
+    display: none;
+  }
+  
+  .drop {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .drop .dropbt {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: #dbdbdb;
+    padding: 14px 16px;
+    margin: 0;
+    background-color: #333;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .dropcontent {
+    display: none;
+    position: absolute;
+    background-color: #dbdbdb; 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropcontent a {
+    float: none;
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .Menu a:hover, .drop:hover .dropbt {
+    background-color: #333;
+    color: #dbdbdb;
+  }
+  
+  .dropcontent a:hover {
+    background-color: #333;
+    color: #dbdbdb;
+  }
+  
+  .drop:hover .dropcontent {
+    display: block;
+  } */
+
 #menu {
     position: sticky;
     top: 0;
@@ -60,10 +167,9 @@ li a {
     text-decoration: none;
     color: black;
     padding: 14px 16px;
-} 
+}  */
 
 /*----Dropdown----*/
-
 .drop {
     position: relative;
     display: inline-block;
