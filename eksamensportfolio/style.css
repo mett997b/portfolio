@@ -8,7 +8,7 @@ body {
 header {
     margin: 0 auto;
     text-align: center;
-    background-image: url(blob.jpg);
+    background-image: url(bgbillede.jpg);
     background-size: 100%;
 }
 
@@ -104,6 +104,7 @@ li a {
     font-size: 20px;
     margin: 15px;
     padding-bottom: 15px;
+    line-height: 25px;
 }
 
 /*----Billedeslider----*/
@@ -150,14 +151,15 @@ img {
 footer {
     text-align: center;
     background-color: #333;
-    color: #000;
+    color: #dbdbdb;
     font-family: 'Playfair Display', serif;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     padding: 15px;
 }
 
 footer h3, footer h2 {
     margin: 0;
+    font-family: 'Oswald', sans-serif;
 }
 
 footer h3 {
@@ -223,7 +225,7 @@ footer h3 {
     }
 
     #forside p {
-        padding: 50px 250px 30px 250px;
+        padding: 50px 350px 30px 350px;
     }
 
     #bknapper {

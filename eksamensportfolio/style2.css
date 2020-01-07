@@ -9,7 +9,7 @@ body {
 header {
     margin: 0 auto;
     text-align: center;
-    background-image: url(blob.jpg);
+    background-image: url(bgbillede.jpg);
     background-size: 100%;
 }
 
@@ -101,7 +101,7 @@ li a {
 /*----Brødtekst med billeder/illustrationer + links----*/
 
 section img {
-    width: 70%;
+    width: 300px;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -112,21 +112,26 @@ p {
     font-family: 'Gelasio', serif;
     letter-spacing: 0;
     font-size: 20px;
-    margin: 20px;
+    padding: 20px;
     color: black;
+    margin: 0;
+    line-height: 25px;
 }
 
-h1, h2{
-    margin: 20px 20px 0 20px;
+
+h1, h2, h3, h4{
+    font-family: 'Oswald', sans-serif;
+    padding: 20px 20px 0 20px;
+    margin: 0;
 }
 
 #kildelink {
     text-decoration: none;
     color: rgba(75, 74, 74, 0.863);
-    display: inline;
-    margin: 20px;
+    display: block;
+    padding: 20px 20px 0;
     font-style: italic;
-
+    margin: 0;
 }
 
 
@@ -135,13 +140,15 @@ h1, h2{
 footer {
     text-align: center;
     background-color: #333;
-    color: #000;
+    color: #dbdbdb;
     font-family: 'Playfair Display', serif;
     padding: 15px;
+    margin-top: 30px;
 }
 
 footer h3, footer h2 {
     margin: 0;
+    padding: 0;
 }
 
 footer h3 {
@@ -157,18 +164,16 @@ footer h3 {
     }
 
     section img {
-        padding: 50px;
+        width: 500px;
     }
 
     header {
         background-size: 100%;
     }
 
-    p, h1, h2, #kildelink {
-        padding: 20px 50px;
+    p, h1, h2, h3, h4, #kildelink {
+        padding: 20px 50px 0;
     }
-
-
 }
 
 
@@ -180,7 +185,7 @@ footer h3 {
     }
 
     section img {
-        padding: 120px;
+        width: 600px;
     }
     
     header {
@@ -188,8 +193,8 @@ footer h3 {
         padding: 2%;
     }
 
-    p, h1, h2, #kildelink {
-        padding: 30px 120px;
+    p, h1, h2, h3, h4, #kildelink {
+        padding: 20px 120px 0;
         margin: 0;
     }
 
@@ -204,7 +209,7 @@ footer h3 {
     }
 
     section img {
-        padding: 250px;
+        width: 750px;
     }
 
     header {
@@ -212,7 +217,7 @@ footer h3 {
         padding: 3%;
     }
 
-    p, h1, h2, #kildelink {
-        padding: 50px 250px 30px 250px;
+    p, h1, h2, h3, h4, #kildelink {
+        padding: 20px 350px 0;
     }
 }

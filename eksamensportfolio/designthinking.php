@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="style2.css" rel="stylesheet">
-    <title>eksamensportfolio</title>
+    <title>Design Thinkting</title>
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
@@ -14,73 +14,16 @@
 </head>
 
 <body>
-    <!--Logo med lys effekt-->
-    <header> 
-            <img  id="mitlogo" src="logo.png" href="index.html">  
-            <div id="knapper">
-                <button onclick="document.getElementById('mitlogo').src='logo.gif'">ON</button>
-                <button onclick="document.getElementById('mitlogo').src='logo.png'">OFF</button>
-            </div>      
-    </header>
+<!--PHP include header og navigation-->
+<?php
+include 'header.html';
+include 'nav.html';
+?> 
 
-    <!--Hovedmenu øverst på siden-->
-    <nav id="menu"> 
-        <ul>
-            <li><a href="forside.html">Forside</a></li>
-            <li class="drop">
-                <button class="dropbt" href="#">Webudvikling</button>
-                <div class="dropcontent">
-                    <a href="internetshistorie.html">Internets Historie</a>
-                    <a href="htmlogseo.html">HTML & SEO</a>
-                    <a href="css.html">CSS</a>
-                    <a href="responsivedesign.html">Responsive Design</a>
-                    <a href="versionsstyring.html">Versionsstyring</a>
-                    <a href="intermationsakitektur.html">Intermationsakitektur</a>
-                    <a href="serverbegrebetogserversitescripting.html">Serverbegrebet & serversite scripting</a>
-                </div>
-            </li> 
+<!--Brødtekst med billeder/illustrationer-->
 
-            <li class="drop">
-                <button class="dropbt" href="#">Design</button>
-                <div class="dropcontent">
-                    <a href="fotografering.html">Fotografering</a>
-                    <a href="photoshop.html">Photoshop</a>
-                    <a href="farver.html">Farver</a>
-                    <a href="illustrator.html">Illustrator</a>
-                    <a href="typografi.html">Typografi</a>
-                    <a href="gestaltlove.html">Gestaltlove</a>
-                </div>
-            </li>
-
-            <li class="drop">
-                <button class="dropbt" href="#">Kommunikation</button>
-                <div class="dropcontent">
-                    <a href="kommunikationsteori.html">Kommunikationsteori</a>
-                    <a href="præsentationsteknik.html">Præsentationsteknik</a>
-                    <a href="kvantitativogkvalitativmperi.html">Kvantitativ & Kvalitativ Empiri</a>
-                    <a href="tekstproduktion.html">Tekst Prodution</a>
-                    <a href="businessmodelcanvas.html">Business Model Canvas</a>
-                    <a href="brugertest.html">Bruger Test</a>
-                </div>
-            </li>
-
-            <li class="drop">
-                <button class="dropbt" href="#">Projekter</button>
-                <div class="dropcontent">
-                    <a href="designthinking.html">Designthinking</a>
-                    <a href="designthinktingprojekt.html">Designthinking Projekt</a>
-                    <a href="htmlcssworkshop.html">HTML/CSS Workshop</a>
-                    <a href="onepageprojekt.html">Onepage Projekt</a>
-                </div>
-            </li>
-
-            <li><a href="omsiden.html">Om siden</a></li>
-        </ul>
-    </nav>
-
-    <!--Brødtekst med billeder/illustrationer-->
-    <section>
-        <h1>Designthinking</h1>
+<section>
+        <h1Designthinking</h1>
             <p>
                 Design Thinking er en innovationsmetode, der tager udgangspunkt i selve processen i det at udvikle et produkt. 
                 <br>En metode, hvor der søges forståelse fra brugeren, de stereotypiske antagelser bliver udfordret og der bliver omdefineret problemstillinger, der skaber vej til innovative løsninger. 
@@ -128,11 +71,9 @@
 
             </p>
     </section>
-    <footer>
-        <h3>Eksamens Portfolio Vinter 19/20</h3>
-        <h2>Mette Langvang</h2>
-        <h3>Multimediedesinger Studerende</h3>
-    </footer>
-
+<!--PHP include footer-->
+<?php
+include 'footer.html';
+?>
 </body>
 </html>
