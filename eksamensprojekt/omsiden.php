@@ -24,7 +24,7 @@ include 'nav.html';
 
 <!--Brødtekst med billeder/illustrationer-->
     <section>
-        <h1>Dette var så mit lærings portfolio. </h1>
+        <h1>Dette var så mit læringsportfolio. </h1>
         <p>
             Mine idéer og tanker om siden, var meget klare fra starten. Jeg ville lave siden i den lidt typiske blogger stil, med de sort/hvide toner og den lille pop af farve, til at give kontrast. 
             <br>Da det sammentid er jule mens jeg har skulle lave denne opgave, har det være oplagt at jeg, som er så juleglad, har fået lidt julestemning ind over. 
