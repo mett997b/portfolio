@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
 <body>

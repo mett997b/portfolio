@@ -34,11 +34,13 @@ header button {
     letter-spacing: 0;
 }
 
-/*----Hovedmenu----*/  
-/* .Menu a:not(:first-child), .drop .dropbt {
+/*----Hovedmenu----*/ 
+
+.Menu a:not(:first-child), .drop .dropbt {
     display: none;
-  }
-  .Menu a.icon {
+}
+
+.Menu a.icon {
     float: right;
     display: block;
 }
@@ -48,9 +50,10 @@ header button {
 }
 
 .Menu.responsive .icon {
-  position: absolute;
-  right: 0;
-  top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 14px;
 }
 
 .Menu.responsive a {
@@ -67,142 +70,85 @@ header button {
     position: relative;
 }
 
-  .Menu.responsive .drop .dropbt {
+.Menu.responsive .drop .dropbt {
     display: block;
     width: 100%;
     text-align: left;
 }
 .Menu {
     overflow: hidden;
-    background-color: #333;
+    background-color: #dbdbdb;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
-   }
+}
   
-  .Menu a {
+.Menu a {
     float: left;
     display: block;
-    color: #dbdbdb;
-    text-align: center;
-    padding: 14px 16px;
+    color: #333;
     text-decoration: none;
     font-size: 17px;
-  }
+
+}
   
-  .Menu .icon {
+.Menu .icon {
     display: none;
-  }
+}
   
-  .drop {
+.drop {
     float: left;
     overflow: hidden;
-  }
+}
   
-  .drop .dropbt {
+.drop .dropbt {
     font-size: 17px;    
     border: none;
     outline: none;
-    color: #dbdbdb;
+    color: #333;
     padding: 14px 16px;
     margin: 0;
-    background-color: #333;
+    background-color: #dbdbdb;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
-  }
+}
   
-  .dropcontent {
+.dropcontent {
     display: none;
     position: absolute;
-    background-color: #dbdbdb; 
+    background-color: #333; 
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
+}
   
-  .dropcontent a {
+.dropcontent a {
     float: none;
-    color: #333;
+    color: #dbdbdb;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
+}
   
-  .Menu a:hover, .drop:hover .dropbt {
-    background-color: #333;
-    color: #dbdbdb;
-  }
+.Menu a:hover, .drop:hover .dropbt {
+    background-color: #dbdbdb;
+    color: #333;
+    cursor: pointer;
+}
   
-  .dropcontent a:hover {
-    background-color: #333;
-    color: #dbdbdb;
-  }
+.dropcontent a:hover {
+    background-color: #dbdbdb;
+    color: #333;
+}
   
-  .drop:hover .dropcontent {
-    display: block;
-  } */
-
-#menu {
-    position: sticky;
-    top: 0;
-    font-size: 17px;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-}
-
-ul{
-    list-style-type: none;
-    padding: 0;
-    background-color: #dbdbdb;
-    margin: 0;
-}
-
-ul li {
-    display: inline-block;
-}
-
-
-li a {
-    display: block;
-    text-decoration: none;
-    color: black;
-    padding: 14px 16px;
-}  */
-
-/*----Dropdown----*/
-.drop {
-    position: relative;
-    display: inline-block;
-}
-
-.dropbt {
-    color: black;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 1px;
-    border: none;
-    font-size: 17px;
-    padding: 14px 16px;
-    background-color: #dbdbdb;
-}
-
-.dropcontent {
-    display: none;
-    position: absolute;
-    background-color: #dbdbdb;
-    z-index: 1;
-    min-width: 130px;
-}
-
-.dropcontent a {
-    color: black;
-    text-decoration: none;
-    padding: 12px 16px;
-    display: block;
-}
-
 .drop:hover .dropcontent {
     display: block;
 } 
+
+a.icon {
+    padding: 14px 16px;
+    padding-top: 0;
+}
 
 /*----Brødtekst med billeder/illustrationer + links----*/
 
@@ -263,6 +209,8 @@ footer h3 {
 
 
 @media only screen and (min-width: 600px){
+
+    
 
     #mitlogo {
         width: 200px;

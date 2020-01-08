@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="style2.css" rel="stylesheet">
-    <title>eksamensportfolio</title>
+    <title>Informationsarkitektur</title>
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-
-
+    <script src="script.js"></script>
 </head>
 
 <body>

@@ -11,8 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-
-
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -21,6 +20,7 @@
 include 'header.html';
 include 'nav.html';
 ?>
+
 <!--Brødtekst med billeder/illustrationer-->
 
     <section>

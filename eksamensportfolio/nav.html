@@ -1,7 +1,11 @@
     <!--Hovedmenu øverst på siden-->
-    <nav id="menu"> 
+    <nav class="Menu" id="menu">
         <ul>
-            <li><a href="forside.php">Forside</a></li>
+            <li class="drop">
+                <button class="dropbt">
+                <a  href="forside.php">Forside</a>
+                </button>
+            </li>
             <li class="drop">
                 <button class="dropbt" href="#">Webudvikling</button>
                 <div class="dropcontent">
@@ -13,7 +17,7 @@
             </li> 
 
             <li class="drop">
-                <button class="dropbt" href="#">Design</button>
+                <button class="dropbt">Design</button>
                 <div class="dropcontent">
                     <a href="fotografering.php">Fotografering</a>
                     <a href="photoshop.php">Photoshop</a>
@@ -25,7 +29,7 @@
             </li>
 
             <li class="drop">
-                <button class="dropbt" href="#">Kommunikation</button>
+                <button class="dropbt">Kommunikation</button>
                 <div class="dropcontent">
                     <a href="kommunikationsteori.php">Kommunikationsteori</a>
                     <a href="kvantitativogkvalitativemperi.php">Kvantitativ & Kvalitativ Empiri</a>
@@ -35,15 +39,20 @@
             </li>
 
             <li class="drop">
-                <button class="dropbt" href="#">Projekter</button>
+                <button class="dropbt">Projekter</button>
                 <div class="dropcontent">
                     <a href="designthinking.php">Designthinking</a>
                     <a href="designthinktingprojekt.php">Designthinking Projekt</a>
-                    <a href="htmlogcssworekshop.php">HTML/CSS Workshop</a>
+                    <a href="htmlogcssworkshop.php">HTML/CSS Workshop</a>
                     <a href="onepageprojekt.php">Onepage Projekt</a>
                 </div>
             </li>
 
-            <li><a href="omsiden.html">Om siden</a></li>
+            <li class="drop">
+                <botton class="dropbt">
+                <a href="omsiden.php">Om siden</a>
+                </botton>
+            </li>
         </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </nav>

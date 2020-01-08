@@ -11,8 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-
-
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -59,6 +58,12 @@ include 'nav.html';
             <br>- ”id” selector: Er meget lig ”class”, men anvendes ”id” attributten, er elementet det eneste med det angivet navn. I CSS vil man er ”id” navne afgivet med et ”#” inden det unikke navn.
         </p>
         <img src="csssyntaks.png" alt="Billede af CSS suntaks eks.">
+        <a id="kildelink" href="file:///C:/Users/mette/Downloads/intro%20til%20css%20(3).pdf">-Niels Østergaard, "intro til css.pdf"</a>
+
+        <h2>Kommentar</h2>
+        <p>
+            Som HTML, er det vigtigt i CSS at skrive kommentarer. Det hjælper til at give overblik, og ikke at style det samme element flere gange. For at skrive en kommentar i CSS, skrives ”/*” og så din ønskede kommentar, og aflukkes ”*/”.
+        </p>
         <a id="kildelink" href="file:///C:/Users/mette/Downloads/intro%20til%20css%20(3).pdf">-Niels Østergaard, "intro til css.pdf"</a>
     </section>
 
